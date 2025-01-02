@@ -12,7 +12,7 @@ const config = {
 
 
 		adapter: adapter({
-			runtime: 'edge'
+			runtime: 'nodejs18.x'
 		})
 	}
 }

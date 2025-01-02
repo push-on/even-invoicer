@@ -4,16 +4,9 @@ import { defineConfig } from 'vite'
 export default defineConfig({
 	plugins: [sveltekit()],
 	build: {
-		chunkSizeWarningLimit: 1000,
-		rollupOptions: {
-			output: {
-				manualChunks: {
-					'vendor': [
-						'html2canvas',
-						'jspdf'
-					]
-				}
-			}
-		}
+		chunkSizeWarningLimit: 1000
+	},
+	ssr: {
+		noExternal: ['html2canvas', 'jspdf', 'canvg', 'dompurify', 'fuse.js']
 	}
 })
