@@ -3,6 +3,19 @@
 <div align="center">
 
 <div style="
+  display: inline-block;
+  background: #dc2626;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+">
+🔒 Private Repository
+</div>
+
+<div style="
   background: #1a1a1a;
   padding: 10px 20px;
   border-radius: 8px;

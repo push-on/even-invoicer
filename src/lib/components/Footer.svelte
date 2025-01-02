@@ -2,6 +2,12 @@
 	import { Github } from 'lucide-svelte';
 
 	const AUTHOR_NAME = 'Imran Hossain';
+
+	function handleGitHubClick(event: MouseEvent) {
+		if (!confirm('This link leads to a private repository. Do you want to continue?')) {
+			event.preventDefault();
+		}
+	}
 </script>
 
 <footer class="mt-8 border-t border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
@@ -15,7 +21,8 @@
 			<span>Created by {AUTHOR_NAME}</span>
 			<span>•</span>
 			<a
-				href="https://github.com/imranpollob"
+				href="https://github.com/push-on/even-invoicer"
+				on:click={handleGitHubClick}
 				target="_blank"
 				rel="noopener noreferrer"
 				class="flex items-center gap-1 hover:text-blue-500 dark:hover:text-blue-400"

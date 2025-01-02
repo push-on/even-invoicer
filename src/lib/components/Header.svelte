@@ -33,6 +33,12 @@
 		darkMode = !darkMode;
 		updateTheme();
 	}
+
+	function handleGitHubClick(event: MouseEvent) {
+		if (!confirm('This link leads to a private repository. Do you want to continue?')) {
+			event.preventDefault();
+		}
+	}
 </script>
 
 <div
@@ -46,7 +52,8 @@
 			</div>
 			<div class="flex items-center gap-4">
 				<a
-					href="./"
+					href="https://github.com/push-on/even-invoicer"
+					on:click={handleGitHubClick}
 					target="_blank"
 					rel="noopener noreferrer"
 					class="hidden items-center gap-2 text-sm text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 sm:flex"
