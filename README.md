@@ -87,7 +87,6 @@ pnpm preview
 - [SvelteKit](https://kit.svelte.dev/) - Web application framework
 - [TypeScript](https://www.typescriptlang.org/) - Type safety
 - [TailwindCSS](https://tailwindcss.com/) - Styling
-- [Bits UI](https://www.bits-ui.com/) - UI Components
 - [html2canvas](https://html2canvas.hertzen.com/) & [jsPDF](https://rawgit.com/MrRio/jsPDF/master/docs/) - PDF generation
 - [Zod](https://zod.dev/) - Schema validation
 
