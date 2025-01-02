@@ -52,5 +52,8 @@
 		"jspdf": "^2.5.2",
 		"lucide-svelte": "^0.469.0",
 		"svelte-french-toast": "^1.2.0"
+	},
+	"overrides": {
+		"string-width": "^5.0.0"
 	}
 }
