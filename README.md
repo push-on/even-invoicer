@@ -15,8 +15,8 @@ A modern invoice generation application built with SvelteKit, TailwindCSS, and T
 
 ## Prerequisites
 
-- Node.js (v18 or higher recommended)
-- npm or pnpm (pnpm recommended)
+- Node.js (v20 or higher recommended)
+- npm or bun (bun recommended)
 
 ## Setup Instructions
 
