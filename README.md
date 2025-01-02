@@ -1,59 +1,6 @@
 # Even Invoicer
 
-<div align="center">
-
-<div style="
-  display: inline-block;
-  background: #dc2626;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 10px;
-">
-🔒 Private Repository
-</div>
-
-<div style="
-  background: #1a1a1a;
-  padding: 10px 20px;
-  border-radius: 8px;
-  border: 2px solid #4f46e5;
-  margin: 20px 0;
-  display: inline-block;
-  position: relative;
-">
-
-<div style="
-  position: absolute;
-  top: -4px;
-  right: -4px;
-  width: 8px;
-  height: 8px;
-  background-color: #ef4444;
-  border-radius: 50%;
-  animation: ping-dot 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
-"></div>
-
-### 🚀 [Live Demo](https://even-invoicer.vercel.app/)
-
-</div>
-
-</div>
-
-<style>
-@keyframes ping-dot {
-  75%, 100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  25% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-</style>
+# 🚀 [Live Demo](https://even-invoicer.vercel.app/)
 
 A modern invoice generation application built with SvelteKit, TailwindCSS, and TypeScript. Create, manage, and export professional invoices with ease.
 
